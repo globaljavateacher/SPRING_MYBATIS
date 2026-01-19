@@ -6,12 +6,13 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>SPRING LEGACY</title>
+		<title>SPRING MYBATIS</title>
 	</head>
 	<body>
 		<div>
-			<h1>Hello Spring MVC</h1>
+			<h1>Hello Spring MyBatis</h1>
 		</div>
 	</body>
 </html>
+
 
