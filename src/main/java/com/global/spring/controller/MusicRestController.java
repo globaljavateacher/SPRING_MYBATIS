@@ -11,7 +11,7 @@ import com.global.spring.domain.Music;
 import com.global.spring.service.MusicService;
 
 @RestController
-@RequestMapping(value = "/api/music/")
+@RequestMapping(value = "/api/music")
 public class MusicRestController {
 	
 	@Autowired
