@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.global.spring.domain.Music;
 import com.global.spring.service.MusicService;
 
+@AllArgsConstructor
 @RestController
 @RequestMapping(value = "/api/music")
 public class MusicRestController {
-	
-	@Autowired
+
 	private MusicService musicService;
 	
 	@GetMapping("/list")
