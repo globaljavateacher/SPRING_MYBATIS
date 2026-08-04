@@ -9,10 +9,10 @@ import org.springframework.transaction.annotation.Transactional;
 import com.global.spring.domain.Music;
 import com.global.spring.mapper.MusicMapper;
 
+@AllArgsConstructor
 @Service
 public class MusicService {
 
-	@Autowired
 	private MusicMapper musicMapper;
 	
 	@Transactional
